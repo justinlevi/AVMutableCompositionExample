@@ -12,6 +12,7 @@
 		E275A24A1BAC792E003204D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E275A2481BAC792E003204D1 /* Main.storyboard */; };
 		E275A24C1BAC792E003204D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E275A24B1BAC792E003204D1 /* Assets.xcassets */; };
 		E275A24F1BAC792E003204D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E275A24D1BAC792E003204D1 /* LaunchScreen.storyboard */; };
+		E275A2571BAC7962003204D1 /* hubblecast.m4v in Resources */ = {isa = PBXBuildFile; fileRef = E275A2561BAC7962003204D1 /* hubblecast.m4v */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E275A24B1BAC792E003204D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E275A24E1BAC792E003204D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E275A2501BAC792E003204D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E275A2561BAC7962003204D1 /* hubblecast.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = hubblecast.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E275A2431BAC792E003204D1 /* AVMutableCompositionTest */ = {
 			isa = PBXGroup;
 			children = (
+				E275A2561BAC7962003204D1 /* hubblecast.m4v */,
 				E275A2441BAC792E003204D1 /* AppDelegate.swift */,
 				E275A2461BAC792E003204D1 /* ViewController.swift */,
 				E275A2481BAC792E003204D1 /* Main.storyboard */,
@@ -121,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E275A2571BAC7962003204D1 /* hubblecast.m4v in Resources */,
 				E275A24F1BAC792E003204D1 /* LaunchScreen.storyboard in Resources */,
 				E275A24C1BAC792E003204D1 /* Assets.xcassets in Resources */,
 				E275A24A1BAC792E003204D1 /* Main.storyboard in Resources */,
@@ -285,6 +289,7 @@
 				E275A2551BAC792E003204D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
